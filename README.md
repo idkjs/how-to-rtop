@@ -1,6 +1,23 @@
 
 # Trying Ocaml-Decoders
 
+This seems to work:
+via [discord](https://discord.com/channels/235176658175262720/235200837608144898/858081629889232967)
+```sh
+> rtop
+...
+Type #utop_help for help about using utop.
+
+Reason # #require "decoders";
+Reason # #require "decoders-yojson";
+<!-- define whatever module -->
+Reason # module E = Decoders_yojson.Basic.Encode;
+module E =
+  Decoders_yojson.Basic.Encode;
+Reason #
+```
+
+Also see [#use_output "dune top";](https://dune.readthedocs.io/en/stable/toplevel-integration.html#toplevel-integration)
 
 # Running
 
