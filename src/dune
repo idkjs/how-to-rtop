@@ -1,0 +1,7 @@
+(executable
+ (modes byte exe)
+ (name Encoding)
+ (libraries decoders-yojson decoders)
+ (flags :standard -warn-error -a+8))
+
+
