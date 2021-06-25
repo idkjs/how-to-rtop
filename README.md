@@ -1,12 +1,25 @@
 
 # Trying Ocaml-Decoders
 
+
+# Running
+
+```sh
+make all
+dune exec src/Encoding.exe
+dune exec generic/GenericDecoders.exe
+# or
+make test
+```
 # Goals
 
-## How to process the decoder return values
+## Return values
+How to process the decoder return values and use them.
 
+`D.encode`?
 
 ## How to run in `rtop`.
+
 
 Whatever the command is, I have not found it.
 
